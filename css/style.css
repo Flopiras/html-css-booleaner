@@ -19,3 +19,11 @@
 #photo_description{
     font-size: 0.8rem;
 }
+
+.highlighted{
+    background-color: yellow;
+}
+
+.list{
+    padding: 0;
+}
