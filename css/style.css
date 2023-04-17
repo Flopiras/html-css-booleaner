@@ -8,8 +8,10 @@
     background-size: contain;
     background-color: rgb(54, 124, 255);
     font-family: 'Anuphan', sans-serif;
+    font-size: 1.2rem;
     color: white;
-    height: 15%;
+    padding-left: 2rem;
+    height: 3rem;
 }
 
 #author{
@@ -25,7 +27,7 @@
 }
 
 .list{
-    padding: 0;
+    padding: 1%;
 }
 
 thead{
