@@ -12,6 +12,15 @@
     color: white;
     padding-left: 2rem;
     height: 3rem;
+    width: 100%;
+}
+
+header > h1{
+    margin-bottom: 0;
+}
+
+address{
+    margin-bottom: 1rem;
 }
 
 #author{
