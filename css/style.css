@@ -27,3 +27,15 @@
 .list{
     padding: 0;
 }
+
+thead{
+    background-color: rgb(54, 124, 255) ;
+}
+
+#third_column{
+    width: 50% ;
+}
+
+.colored{
+    background-color: cornflowerblue;
+}
