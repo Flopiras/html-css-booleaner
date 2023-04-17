@@ -1,7 +1,5 @@
-
-
 #container{
-    width: 70%;
+    width: 65%;
     margin: 30px auto;
 }
 
@@ -12,5 +10,12 @@
     font-family: 'Anuphan', sans-serif;
     color: white;
     height: 15%;
+}
 
+#author{
+    color: rgb(54, 124, 255) ;
+}
+
+#photo_description{
+    font-size: 0.8rem;
 }
