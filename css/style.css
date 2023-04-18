@@ -5,7 +5,7 @@
 
 #banner{
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-size: 30%;
     background-color: rgb(54, 124, 255);
     font-family: 'Anuphan', sans-serif;
     font-size: 2rem;
@@ -15,16 +15,22 @@
     width: 100%;
 }
 
+#logo{
+    height: 50px;
+    margin-top: 25px;
+}
+
 header > h1{
     margin-bottom: 0;
 }
 
 address{
     margin-bottom: 1rem;
+    font-style: normal;
 }
 
-#author{
-    color: rgb(54, 124, 255) ;
+a{
+    text-decoration: none;
 }
 
 #photo_description{
@@ -36,9 +42,13 @@ address{
 }
 
 .list{
-    padding: 1%;
+    padding-inline-start: 0;
+    list-style-position: inside;
 }
 
+table{
+    border-collapse: collapse;
+}
 thead{
     background-color: rgb(54, 124, 255) ;
 }
@@ -56,11 +66,13 @@ footer > h3{
 }
 
 footer > div{
-    height: 200px;
-    width: 300px;
+    height: 208px;
+    width: 312px;
     margin: 10px;
     color: white;
-    padding: 10px;
+    padding: 10px;    
+    background-position: center;
+    background-size: cover;
 }
 
 #first_advised{

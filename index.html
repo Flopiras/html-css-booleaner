@@ -14,12 +14,11 @@
 </head>
 
 <body>
-    <div id="container">
+    <div class="container">
         <header>
             <!-- titolo + immagini con caption -->
             <div id="banner">
-                The <br />
-                <span>Booleaner</span>
+                <img src="img/logo.svg" alt="The Booleaner Logo" id="logo">
             </div>
 
             <h1>
@@ -27,20 +26,20 @@
                 Tim Berners Lee
             </h1>
             <address>
-                Scritto da <span id="author">The Booleaner</span> <br />
-                il 10/10/2020
-            </address>
+                Scritto da <a href="#">The Booleaner</a></address>
+            <time datetime="2020-10-10">il 10/10/2020</time>
 
-            <picture>
+
+            <figure>
                 <img src="img/tim-1.jpg" alt="John S." />
                 <img src="img/tim-2.jpg" alt="Tim Berners Lee" />
 
-                <div id="photo_description">
+                <figcaption id="photo_description">
                     1st Photo: John S. and James L. Knight Foundation, by Scott
                     Henrichsen <br />
                     2nd Photo: Tim Berners Lee, by Paul Clarke
-                </div>
-            </picture>
+                </figcaption>
+            </figure>
         </header>
 
         <main>
@@ -127,8 +126,12 @@
             <h3>Potrebbero interessarti</h3>
             <!-- immagini con scritta sovrapposta -->
 
-            <div id="first_advised">Lorem Ipsum Dolor</div>
-            <div id="second_advised">Lorem Ipsum Dolor</div>
+            <div id="first_advised">
+                <h4>Lorem Ipsum Dolor</h4>
+            </div>
+            <div id="second_advised">
+                <h4>Lorem Ipsum Dolor</h4>
+            </div>
 
         </footer>
     </div>
